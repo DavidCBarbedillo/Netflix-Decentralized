@@ -23,22 +23,23 @@ const Home = () => {
 
   useEffect(() => {
     async function fetchMyList() {
-     /*  await Moralis.start({
-        serverUrl: "<Server URL>",
-        appId: "<APP ID>",
-      }); */ //if getting errors add this 
-      
-      const theList = await Moralis.Cloud.run("getMyList", { addrs: account });
-
-      const filterdA = movies.filter(function (e) {
+      //   await Moralis.start({
+      //   serverUrl: "",
+      //   appId: "",
+      // }); //if getting errors add this 
+      // console.log(account)
+      const theList = await Moralis.Cloud.run("getMyList",{addrs: account})
+      const filterA = movies.filter(function (e) {
         return theList.indexOf(e.Name) > -1;
-      });
-
-      setMyMovies(filterdA);
+      })
+      setMyMovies(filterA)  
     }
+    if(isAuthenticated) {
+      fetchMyList();  
+    }
+    console.log(isAuthenticated);    
+  },[account, isAuthenticated])
 
-    fetchMyList();
-  }, [account]);
 
   const dispatch = useNotification();
 
@@ -83,15 +84,18 @@ const Home = () => {
                   theme="secondary"
                   type="button"
                 />
-                <Button
-                  icon="plus"
-                  text="Add to My List"
-                  theme="translucent"
-                  type="button"
-                  onClick={() => {
-                    console.log(myMovies);
-                  }}
-                />
+                <Button icon="plus" text="Add to my list" theme="translucent" type="button" onClick={async() =>{
+                if (isAuthenticated) {
+                  await Moralis.Cloud.run("updateMyList", {
+                    addrs: account,
+                    newFav: movies[0].Name
+                  })
+                  handleAddNotification();
+                } else {
+                  handleNewNotification();
+                }
+                
+              }} />
               </div>
             </div>
 
