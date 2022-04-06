@@ -74,8 +74,8 @@ const Home = () => {
         <TabList defaultActiveKey={1} tabStyle="bar">
           <Tab tabKey={1} tabName={"Movies"}>
             <div className="scene">
-              <img src={movies[0].Scene} className="sceneImg"></img>
-              <img className="sceneLogo" src={movies[0].Logo}></img>
+              <img src={movies[0].Scene} className="sceneImg" alt=""></img>
+              <img className="sceneLogo" src={movies[0].Logo} alt=""></img>
               <p className="sceneDesc">{movies[0].Description}</p>
               <div className="playButton">
                 <Button
@@ -102,11 +102,11 @@ const Home = () => {
             <div className="title">Movies</div>
             <div className="thumbs">
               {movies &&
-                movies.map((e) => {
+                movies.map((e, i) => {
                   return (
                     <img
                       src={e.Thumnbnail}
-                      className="thumbnail"
+                      className="thumbnail" alt="" key={i}
                       onClick={() => {
                         setSelectedFilm(e);
                         setVisible(true);
@@ -124,11 +124,11 @@ const Home = () => {
                 <>
                   <div className="ownThumbs">
                     {
-                      myMovies.map((e) => {
+                      myMovies.map((e,i) => {
                         return (
                           <img
                             src={e.Thumnbnail}
-                            className="thumbnail"
+                            className="thumbnail" alt="" key={i}
                             onClick={() => {
                               setSelectedFilm(e);
                               setVisible(true);
@@ -155,8 +155,8 @@ const Home = () => {
               width="1000px"
             >
               <div className="modalContent">
-                <img src={selectedFilm.Scene} className="modalImg"></img>
-                <img className="modalLogo" src={selectedFilm.Logo}></img>
+                <img src={selectedFilm.Scene} className="modalImg" alt=""></img>
+                <img className="modalLogo" src={selectedFilm.Logo} alt=""></img>
                 <div className="modalPlayButton">
                   {isAuthenticated ? (
                     <>
