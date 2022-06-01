@@ -18,4 +18,5 @@
 
 .backButton {
     color: green !important;
+    z-index: 3;
 }
