@@ -12,6 +12,7 @@ import {
   Button,
   Modal,
   useNotification,
+  xIcon, 
 } from 'web3uikit';
 import { movies } from '../helpers/library';
 import { networkCollections } from '../helpers/collections';
@@ -88,11 +89,11 @@ const Home = () => {
       </h1>
           <Tab tabKey={0} tabName={""}/>
           <Tab tabKey={4} tabName={"Home"}>
-          <div className="scene"><img src={"https://i.imgur.com/08VzwnC.png"}></img></div>
+          <div className="scene"><img src={"https://i.imgur.com/2GCD58K.png"}></img></div>
           </Tab>
           <Tab tabKey={1} tabName={"Movies"}>
             <div className="scene">
-              <img src={"https://i.imgur.com/tU9ZawK.png"}></img>
+              <img src={"https://i.imgur.com/fbLNkEG.png"}></img>
               
             
 
@@ -118,7 +119,7 @@ const Home = () => {
           </Tab>
           <Tab tabKey={2} tabName={"NFTs"}>
             <div className="scene">
-              <img src={"https://i.imgur.com/aa1fW5I.png"}></img>  
+              <img src={"https://i.imgur.com/Kwxdudj.png"}></img>  
             </div>
 
             <div className="title">Buy NFTs</div>
@@ -141,7 +142,7 @@ const Home = () => {
             </div>
           </Tab>
           <Tab tabKey={3} tabName={"MyList"}>
-          <img src={"https://i.imgur.com/8IoDtmx.png"}></img>  
+          <img src={"https://i.imgur.com/urS0FLK.png"}></img>  
             
             <div className="ownListContent">
               <div className="title">Your Library</div>
@@ -177,8 +178,9 @@ const Home = () => {
         
         {selectedFilm && (
           <div className="modal">
+
             
-            <Modal
+            <Modal style={{zIndex:3}}
               onCloseButtonPressed={() => setVisible(false)}
               isVisible={visible}             //change to true    "Date: 01 06 22"
               hasFooter={false}
@@ -187,6 +189,7 @@ const Home = () => {
               
               
             >
+            
 
               <div className="modalContent">
                 <img src={selectedFilm.Scene} className="modalImg" alt=""></img>

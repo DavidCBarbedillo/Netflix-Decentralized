@@ -29,10 +29,10 @@ import amerp from "../images/amerp.png";
 
 export const movies = [
   {
-    Movie: "https://gdurl.com/aHER",
+    Movie: "https://ipfs.io/ipfs/QmXbyGe8YWME5anef6Vvc4NooxUCdGgy4BQ5e8CespGeJ3?filename=0.mp4",
     Thumnbnail: tita,
     Scene: titanicS,
-    Logo: movieLogo,
+    Logo: "",
     Name: "Caballero Águila",
     Description: "Upon finishing high school, three friends must choose the path their lives will take. Pastor dreams of flying and the love of Flor, the sister of a jealous Nacho, who will look for an easy way out by enlisting in the ranks of crime.",
     Genre: "Action-Adventure, Drama",
@@ -42,10 +42,10 @@ export const movies = [
     Duration: "98 min",
   },
   {
-    Movie: "https://doc-14-54-docs.googleusercontent.com/docs/securesc/6oa92t007hi3eeeff1e3t9e9dogg67on/23msjv7q9hi3iiqglcroc6ni91opnvj5/1653155775000/07065784338711130298/15573714808516402618/1NR30b4P4nRH8iCrqZf12uFJevUre3qhN?ax=ACxEAsZ3Acsgq05MvPQwms5bX1wfq6O0CzZf63PBKIbdRJCM8S25g34jgAdFV7wWCPfRpaCRN-6CWI0JyTIIxfjiOO471MUnV4PXBLOP0EJm5yJD-Xa5CU-liKkqsM_RqS6KleomDuFnerzMwfPKHV6g8ape803g48McpFqHyinM1Olnviy-ggesXv1W2CMESBAD7tatzoYQbg8s4jhf90hHYAgylX_O4aIxFqjab0sqFTEjWBe6E62GtWIiUlbBe_ZHtsC0BFEs4Ip1qxd0sbP5VDYjNWafUpE6ecpJ1gy3V3LVuArUw_FuA0gNL9NZdKLC1mVA5BhdC-22Zh6vwpaAP6B1-RW9F9FSln_ghST2XZoA-RGhI1zKJEPELcYSW8OjUzgyafLPpQDDnl8QFSlAkqtAkLduB0SgmIOQTsL-yZowmZ_C8xGa84D3ZoHi8y3K9zAauKkuvBbVTM3jb2FrLwvvuqDjTQzGMnpvHHXUBsluQombvySLliYg8bctFRQtR_uZASLGfZ-J-M1xdSYjNcW-tEw9FjzKCvSU4y1yEc5hXbj4kjss9e0lIWPyXMdDuWSN7VxzWCgFph25VsIA26abepzV4StfEADdqd0cwPX2EbQgivDZApffM7su6pD_vsl__FtmRo0O8c0_d25xmcLR4gdzUVFYZugPdxVsPsQu2aAsKjpkAgKLkbxw48ld9OF02N27AjDsNpwyJuWlhblKhS1z2Mq76_BlKa6_XTAKr1ehVzhi9uRrZCpFCcaVTYqpXuH3Li8UGPibPy7STTl2CRPvFaE7eBz5hKGgyn1wLpVIQttYe-3Re2rpytTIrRbmaFuU-9gzlVbzOSQxO_9Lu5pcRdPfTUpHQbx31UQY-_Q8okXwZqeHiH63Bph63PcaK1tDbt4MsfwotQ3QYb6OouJPVGM4dl7Ze_22ZP_H4iGTv17uc2sw871AywHVXR_EQ-b9nj_hlF0QWi28sL_Ude_NXCyeiyxTyf-gRPMGOC64D_tZoI5HCx2QqEqKcLt6NjnJd1M&authuser=0&nonce=oou3tpst5ru7o&user=15573714808516402618&hash=brlh0i2f184vraa2qo133umu61uru6lo",
+    Movie: "https://ipfs.io/ipfs/Qme3dgQmNNXwMgvKWRmg5DxMiEYKu2v9gMSNuwJS7LD5K6?filename=1a.mp4",
     Thumnbnail: spidey,
     Scene: spideyScene,
-    Logo: spideyLogo,
+    Logo: "",
     Name: "El Fantástico Mundo de Juan Orol",
     Description: "The film freely narrates the biography of one of the icons in the history of Mexican cinema: Juan Orol, a man of Galician origin who, after various adventures, arrived in Mexico to become, involuntarily, the creator of several cinematographic genres, among which the Rumberas Cinema and the Gangster Cinema stand out, obtaining enormous success at the box office but with terrible reviews. He became known as the involuntary surrealist.",
     Genre: "Black-Comedy, Biopic",
@@ -54,7 +54,7 @@ export const movies = [
     Duration: "94 min",
   },
   {
-    Movie: "https://doc-0g-54-docs.googleusercontent.com/docs/securesc/6oa92t007hi3eeeff1e3t9e9dogg67on/445m31in0tj61gek7ed9u3dd1jejf3tf/1653156000000/07065784338711130298/15573714808516402618/15P3g8oyX5_H8pEaIY_QsfOE_oo-qC7oC?ax=ACxEAsb9gJFdfl0_a-3d8SDQu8ou7qGREh46KjoVh6u6oUxPmTW-f6MB-QuMGVGyaVRsLtJrJV9A6YxchfvI5hUA0d6FTTrqxSIZaiFzDgCVEn_qu-31DBWGhaQJ83MtCz6vqfYA4vsIgozv7gZuuXY8UPGRAZKGw8x-H-bUfxRDAm2sFS170I7vZ959LNEiW7NVcoEKxzz75P5JMwwBFmA0_2ne5zTCBtuqoZRKvgKtoj_LvfFYHm4Cyy4RtyHOrxWUOb9vTRp469pSkeWNidGTLaEPTN8NP7zhfBHKroBJMjvWMFScL06_-V-1XSwCi80oXHVQYItSPe6N_mkmWRiXy84q96WJVIw_HEOFVa9YBhEDG1R5w7Snar_fsSPd9GBgAxnH8-ATfQqjH9cKwVsZ-YRzrw44wJo1WZJ_uokiavg0l5iCMMC4j8GRF5hwBdVkzTQ_H1SuEJiwd47JAVMOCFcxYXMSdjlLY_NY9714xOinjTPlbvRVH0Vr8AW3cLQdGbcIqLsZbGxK_lVmdqXc5dEQ4adkEwqNjx0NASRctEi-rYvgl7Kf7vJtk0YqTslK2AXaKg-LTjJSMypVVi0A4mr4liJcxzNpZQ9ZE9OOgrWtgzgL60oC8V4ogaRCIkVn2Twf4qZujqtItg9IFfIT2Ji3Jk2W9boQpIcHpCXiUrem2Jr-F1MlZmvMGa9w6EhqB16h8CDYNNYVVI3mnC5eV4ZWCk3lwbHlmPDVwaUHVeeUUdDu7-BFb9Wj9pKro0QZwKlOvrvPPRj76ibfibwsjBQvyD1yb6fUngaXRWKuBvf0qBDZCKt2YL7EEe7EinTWdyp0ohhK1aNNjVhbzkmqjdydR8ptTLm-UO330kEn9xXBPjqAhzy7407gpkszQsqagDReexY5JLXhBQoGIg-C2YVi2n6ZKyPr1MLaJV9gWo2lmtRR54E0dsqepjP0covxktOH_82vO6Tb5diTV6uxf5yU4L9IQO9lKj6UyiazjbO0c55vIia_Z0J2tweA9vrsvrwjL5FoTcc&authuser=0",
+    Movie: "https://ipfs.io/ipfs/QmPRHxDPo7eePL2JdYEt9ohwEhVQZqPSVd3WdGWQg3EK21?filename=2.mp4",
     Thumnbnail: jumanji,
     Scene: jumanji,
     Logo: "",
@@ -66,7 +66,7 @@ export const movies = [
     Duration: "88 min",
   },
   {
-    Movie: "https://drive.google.com/file/d/1sJD2Jhstn-dGKEdOfGeEW_BCHnsIf8Vi/view",
+    Movie: "",
     Thumnbnail: moralis,
     Scene: moralisScene,
     Logo: "",

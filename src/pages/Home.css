@@ -38,6 +38,7 @@
 
 .sceneImg {
   width: 100vw;
+  height: 100vw;
   position:relative;
   top:0px;
   z-index: -5;
@@ -112,12 +113,31 @@
 }
 
 .modal {
-  max-height: 200px !important;
+  max-height: 100px !important;
 }
 
+.onCloseButtonPressed {
+   
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 3;
+} 
+
+.xIcon {
+  background-color: transparent;
+  border: none;
+  font-size: 25px;
+  cursor: pointer;
+  z-index: 3;
+
+}
+
+
 .modalContent {
-  position: relative;
-  top: -70px;
+  position: sticky;
+  top: 90px;
   width: 100%;
 }
 
@@ -126,14 +146,14 @@
 }
 
 .modalLogo {
-  position: fixed;
+  position: bottom;
   top: 360px;
   left: 6%;
   width:30%;
 }
 
 .modalPlayButton {
-  position: fixed;
+  position: bottom;
   top: 500px;
   left: 6%;
   display: flex;
@@ -141,7 +161,7 @@
 }
 
 .details {
-  color: white;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   gap: 20px;
   padding: 20px 0px;
@@ -157,20 +177,22 @@
 
 .description{
   padding-left: 50px;
+  padding-bottom: 10px;
   width: 60%;
-  color: white;
+  color: black;
 }
 
 .detailedInfo {
   padding-left: 10%;
   padding-right:5%;
   padding-top: 60px;
+  padding-bottom: 60px;
   width: 30%;
 }
 
 .deets {
   margin-left: 5px;
-  color: white;
+  color: black;
 }
 
 
