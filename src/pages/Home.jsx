@@ -15,6 +15,7 @@ import {
   xIcon, 
 } from 'web3uikit';
 import { movies } from '../helpers/library';
+import nwftlogosmall from "../images/nwftlogosmall.png";
 import { networkCollections } from '../helpers/collections';
 import { useState } from 'react';
 import { useMoralis } from 'react-moralis';
@@ -70,35 +71,39 @@ const Home = () => {
 
   return (
     <>
+    
       <div className="logo">
-        <Logo />
+        <Logo><img src={nwftlogosmall} width="100" height="100"/></Logo> 
       </div>
       <div className="connect">
-        <Icon fill="#ffffff" size={24} svg="bell" />
+        
         <ConnectButton />
       </div>
       <div className="topBanner">
-      
-      <container>
-      
-        <TabList defaultActiveKey={4} tabStyle="bar" isVertical margin-left={1} border-box margin={0} padding={0} z-index={9}>
-        <h1>
-        <div>
-          
-        </div>
-      </h1>
-          <Tab tabKey={0} tabName={""}/>
-          <Tab tabKey={4} tabName={"Home"}>
-          <div className="scene"><img src={"https://i.imgur.com/2GCD58K.png"}></img></div>
-          </Tab>
-          <Tab tabKey={1} tabName={"Movies"}>
+        <TabList style={{zIndex:3}} defaultActiveKey={1} tabStyle="bar">
+          <Tab></Tab>
+          <Tab tabKey={7} tabName={"   "} style={{zIndex:1}}></Tab>
+          <Tab tabKey={6} tabName={"   "} style={{zIndex:1}}></Tab>
+          <Tab tabKey={5} tabName={""} style={{zIndex:1}}></Tab>
+          <Tab tabKey={4} tabName={""} style={{zIndex:1}}></Tab>
+          <Tab tabKey={1} tabName={"Catalog"} style={{zIndex:3}}>
             <div className="scene">
-              <img src={"https://i.imgur.com/fbLNkEG.png"}></img>
-              
-            
-
+            <div>
+              <p>
+                
+              </p>
             </div>
+              <img src={movies[0].Scene} className="sceneImg" alt=""></img>
+              <img className="sceneLogo" src={movies[0].Logo} alt=""></img>
+              <p className="sceneDesc">{movies[0].Description}</p>
+              
 
+
+
+
+              
+            </div>
+ 
             <div className="title">Movies</div>
             <div className="thumbs">
               {movies &&
@@ -115,35 +120,17 @@ const Home = () => {
                   );
                 })}
             </div>
-           
-          </Tab>
-          <Tab tabKey={2} tabName={"NFTs"}>
-            <div className="scene">
-              <img src={"https://i.imgur.com/Kwxdudj.png"}></img>  
-            </div>
-
-            <div className="title">Buy NFTs</div>
-            <div className="thumbs">
-              {movies &&
-                movies.map((e, i) => {
-                  return (
-                    <img
-                      src={"https://i.imgur.com/hIVW5Bb.png"}
-                      className="thumbnail" alt="" key={i}
-                      onClick={() => {
-                        
-                        //getCollectionsByChain();
-                        //setSelectedFilm(e);
-                        setVisible(true);
-                      }}
-                    ></img>
-                  );
-                })}
-            </div>
-          </Tab>
-          <Tab tabKey={3} tabName={"MyList"}>
-          <img src={"https://i.imgur.com/urS0FLK.png"}></img>  
             
+ 
+           
+                  
+        
+          </Tab>
+
+
+
+
+          <Tab tabKey={3} tabName={"MyList"} style={{zIndex:3}}>
             <div className="ownListContent">
               <div className="title">Your Library</div>
               {myMovies && isAuthenticated ? (
@@ -171,26 +158,16 @@ const Home = () => {
               )}
             </div>
           </Tab>
-          
         </TabList>
-
-        </container>
-        
         {selectedFilm && (
           <div className="modal">
-
-            
-            <Modal style={{zIndex:3}}
+            <Modal
               onCloseButtonPressed={() => setVisible(false)}
-              isVisible={visible}             //change to true    "Date: 01 06 22"
+              isVisible={visible}
               hasFooter={false}
               width="1000px"
               
-              
-              
             >
-            
-
               <div className="modalContent">
                 <img src={selectedFilm.Scene} className="modalImg" alt=""></img>
                 <img className="modalLogo" src={selectedFilm.Logo} alt=""></img>
@@ -204,22 +181,10 @@ const Home = () => {
                           theme="secondary"
                           type="button"
                         />
-                     </Link>
-
-                    <div className="backHome">
-                      <Link to="/">
-                        <Icon 
-                        className="backButton" 
-                        fill="rgba(255,255,255,0.25)" 
-                        size={60} 
-                        svg="arrowCircleLeft" 
-                       />
-                    </Link>
-
-                      </div>
+                      </Link>
                       <Button
                         icon="plus"
-                        text="Add to My List"
+                        text="Generate Token"
                         theme="translucent"
                         type="button"
                         onClick={async () => {
@@ -230,8 +195,6 @@ const Home = () => {
                           handleAddNotification();
                         }}
                       />
-   
-   
                     </>
                   ) : (
                     <>
@@ -244,11 +207,12 @@ const Home = () => {
                       />
                       <Button
                         icon="plus"
-                        text="Add to My List"
+                        text="Movie Token"
                         theme="translucent"
                         type="button"
                         onClick={handleNewNotification}
                       />
+
                     </>
                   )}
                 </div>
@@ -266,7 +230,11 @@ const Home = () => {
                     <br />
                     Actors:
                     <span className="deets">{selectedFilm.Actors}</span>
+                    <div>
+
+                    </div>
                   </div>
+
                 </div>
               </div>
             </Modal>
@@ -276,5 +244,5 @@ const Home = () => {
     </>
   );
 };
-
+ 
 export default Home;

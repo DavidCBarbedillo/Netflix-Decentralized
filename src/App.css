@@ -1,13 +1,14 @@
 .appDiv{
-    background-color: #161616;
+    background-color: blue;
 }
 
 .sc-dkQkyq{
     color: white;
     font-weight: bold;
+    font-family: "Segoe UI";
 }
 .cqVapy{
-    border-bottom: 2px solid #E50914 !important;
+    border-bottom: 2px solid #fcfcfc !important;
 }
 
 .sc-JkixQ {
@@ -21,7 +22,7 @@
 }
 
 .sc-dVNjXY {
-    background-color: #161616 !important;
+    background-color: blue !important;
     margin-top:30px;
 }
 
@@ -36,7 +37,7 @@
 }
 
 .sc-FNXRL {
-    background-color: rgba(0,0,0,0.7) !important;
+    background-color: rgba(20, 51, 92, 0.7) !important;
     transition: background-color 1000ms linear !important;
 }
 
