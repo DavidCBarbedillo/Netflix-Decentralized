@@ -11,8 +11,8 @@
     "static/js/4.b21f5d2b.chunk.js": "/static/js/4.b21f5d2b.chunk.js",
     "static/js/4.b21f5d2b.chunk.js.map": "/static/js/4.b21f5d2b.chunk.js.map",
     "main.css": "/static/css/main.882fca76.chunk.css",
-    "main.js": "/static/js/main.28257d2c.chunk.js",
-    "main.js.map": "/static/js/main.28257d2c.chunk.js.map",
+    "main.js": "/static/js/main.39510fee.chunk.js",
+    "main.js.map": "/static/js/main.39510fee.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1d49880b.js",
     "runtime-main.js.map": "/static/js/runtime-main.1d49880b.js.map",
     "static/js/7.251ce498.chunk.js": "/static/js/7.251ce498.chunk.js",
@@ -103,7 +103,7 @@
     "static/media/tempestadtext.5248f57f.png": "/static/media/tempestadtext.5248f57f.png",
     "static/media/tiemposfelices2escena.e808f80f.png": "/static/media/tiemposfelices2escena.e808f80f.png",
     "static/media/tiemposfelicesescena.c9513b41.png": "/static/media/tiemposfelicesescena.c9513b41.png",
-    "static/media/tiemposfelicestext.4bff0257.png": "/static/media/tiemposfelicestext.4bff0257.png",
+    "static/media/tiemposfelicestext.6f1c4c3d.png": "/static/media/tiemposfelicestext.6f1c4c3d.png",
     "static/media/tit.1d9d7c71.png": "/static/media/tit.1d9d7c71.png",
     "static/media/titanicScene.909e8881.png": "/static/media/titanicScene.909e8881.png",
     "static/media/tomb.7cdfcde8.png": "/static/media/tomb.7cdfcde8.png",
@@ -120,6 +120,6 @@
     "static/js/runtime-main.1d49880b.js",
     "static/js/7.251ce498.chunk.js",
     "static/css/main.882fca76.chunk.css",
-    "static/js/main.28257d2c.chunk.js"
+    "static/js/main.39510fee.chunk.js"
   ]
 }
