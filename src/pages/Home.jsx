@@ -153,7 +153,7 @@ const Home = () => {
                 </>
               ) : (
                 <div className="ownThumbs">
-                  You need to Authenicate TO View Your Own list
+                  You need to Authenicate to view your own list
                 </div>
               )}
             </div>
