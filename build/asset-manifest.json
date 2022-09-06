@@ -11,8 +11,8 @@
     "static/js/4.b21f5d2b.chunk.js": "/static/js/4.b21f5d2b.chunk.js",
     "static/js/4.b21f5d2b.chunk.js.map": "/static/js/4.b21f5d2b.chunk.js.map",
     "main.css": "/static/css/main.882fca76.chunk.css",
-    "main.js": "/static/js/main.89c0d54a.chunk.js",
-    "main.js.map": "/static/js/main.89c0d54a.chunk.js.map",
+    "main.js": "/static/js/main.c47566d1.chunk.js",
+    "main.js.map": "/static/js/main.c47566d1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.1d49880b.js",
     "runtime-main.js.map": "/static/js/runtime-main.1d49880b.js.map",
     "static/js/7.251ce498.chunk.js": "/static/js/7.251ce498.chunk.js",
@@ -48,8 +48,8 @@
     "static/js/8.3dc01ecc.chunk.js.LICENSE.txt": "/static/js/8.3dc01ecc.chunk.js.LICENSE.txt",
     "static/media/amaz.d2321471.png": "/static/media/amaz.d2321471.png",
     "static/media/amerp.f58c79b2.png": "/static/media/amerp.f58c79b2.png",
-    "static/media/bayw.82d6dc1a.png": "/static/media/bayw.82d6dc1a.png",
-    "static/media/bigs.94c27454.png": "/static/media/bigs.94c27454.png",
+    "static/media/bayw.d9b5bae2.png": "/static/media/bayw.d9b5bae2.png",
+    "static/media/bigs.9c733b13.png": "/static/media/bigs.9c733b13.png",
     "static/media/caballeroaguilatext.45a4a5da.png": "/static/media/caballeroaguilatext.45a4a5da.png",
     "static/media/desiertoescena.6ed799b3.png": "/static/media/desiertoescena.6ed799b3.png",
     "static/media/desiertotext.0bfd42c3.png": "/static/media/desiertotext.0bfd42c3.png",
@@ -59,8 +59,8 @@
     "static/media/entrevivasyalabadostext.7ec3c673.png": "/static/media/entrevivasyalabadostext.7ec3c673.png",
     "static/media/fogoescena.14b082ec.png": "/static/media/fogoescena.14b082ec.png",
     "static/media/fogotext.a9f2adac.png": "/static/media/fogotext.a9f2adac.png",
-    "static/media/guerosescena.5f08c1b7.png": "/static/media/guerosescena.5f08c1b7.png",
-    "static/media/guerostext.d90406c8.png": "/static/media/guerostext.d90406c8.png",
+    "static/media/guerosescena.8e1b5c7d.png": "/static/media/guerosescena.8e1b5c7d.png",
+    "static/media/guerostext.7c4fb30c.png": "/static/media/guerostext.7c4fb30c.png",
     "static/media/hob.4adfa805.png": "/static/media/hob.4adfa805.png",
     "static/media/imit.61aac537.png": "/static/media/imit.61aac537.png",
     "static/media/jam.8a478866.png": "/static/media/jam.8a478866.png",
@@ -77,7 +77,7 @@
     "static/media/losmuertostext.baf91ba7.png": "/static/media/losmuertostext.baf91ba7.png",
     "static/media/losultimosescena.db52a7b9.png": "/static/media/losultimosescena.db52a7b9.png",
     "static/media/losultimostext.c5ab3f99.png": "/static/media/losultimostext.c5ab3f99.png",
-    "static/media/lucy.3626df80.png": "/static/media/lucy.3626df80.png",
+    "static/media/lucy.221a740f.png": "/static/media/lucy.221a740f.png",
     "static/media/maimorireescena.be4246a1.png": "/static/media/maimorireescena.be4246a1.png",
     "static/media/maimoriretext.814025c4.png": "/static/media/maimoriretext.814025c4.png",
     "static/media/moralis.bd32f8cb.png": "/static/media/moralis.bd32f8cb.png",
@@ -111,15 +111,15 @@
     "static/media/verloendomingoescena.0320e00b.png": "/static/media/verloendomingoescena.0320e00b.png",
     "static/media/verloendomingotext.f33ffa80.png": "/static/media/verloendomingotext.f33ffa80.png",
     "static/media/wolf.5c663605.png": "/static/media/wolf.5c663605.png",
-    "static/media/yanoestoyaquiescena.452ece35.png": "/static/media/yanoestoyaquiescena.452ece35.png",
-    "static/media/yanoestoyaquitext.cbf9e672.png": "/static/media/yanoestoyaquitext.cbf9e672.png",
-    "static/media/ytumamatambienescena.33a20d0c.png": "/static/media/ytumamatambienescena.33a20d0c.png",
-    "static/media/ytumamatambientext.856291f0.png": "/static/media/ytumamatambientext.856291f0.png"
+    "static/media/yanoestoyaquiescena.d6c62cb8.png": "/static/media/yanoestoyaquiescena.d6c62cb8.png",
+    "static/media/yanoestoyaquitext.ea184cf5.png": "/static/media/yanoestoyaquitext.ea184cf5.png",
+    "static/media/ytumamatambienescena.21d9fc19.png": "/static/media/ytumamatambienescena.21d9fc19.png",
+    "static/media/ytumamatambientext.f40c0670.png": "/static/media/ytumamatambientext.f40c0670.png"
   },
   "entrypoints": [
     "static/js/runtime-main.1d49880b.js",
     "static/js/7.251ce498.chunk.js",
     "static/css/main.882fca76.chunk.css",
-    "static/js/main.89c0d54a.chunk.js"
+    "static/js/main.c47566d1.chunk.js"
   ]
 }
