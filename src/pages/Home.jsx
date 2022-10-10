@@ -1,22 +1,17 @@
 import React, { useEffect } from 'react';
 import { Link } from 'react-router-dom';
-import { useLocation } from 'react-router';
 import './Home.css';
 import './Player.css';
 import { Logo } from '../images/Netflix';
 import {
   ConnectButton,
-  Icon,
   TabList,
   Tab,
   Button,
   Modal,
   useNotification,
-  xIcon, 
 } from 'web3uikit';
 import { movies } from '../helpers/library';
-import nwftlogosmall from "../images/nwftlogosmall.png";
-import { networkCollections } from '../helpers/collections';
 import { useState } from 'react';
 import { useMoralis } from 'react-moralis';
 
@@ -73,7 +68,7 @@ const Home = () => {
     <>
     
       <div className="logo">
-        <Logo><img src={nwftlogosmall} width="100" height="100"/></Logo> 
+        <Logo></Logo> 
       </div>
       <div className="connect">
         
